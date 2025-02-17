@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  @apply bg-gray-900 text-white;
+}
+
+.dark-mode nav {
+  @apply bg-gray-800;
+}
+
+/* Transitions */
+.transition-all {
+  transition: all 0.3s ease;
+}
